@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
     libbluetooth_audio_session
 
+# Call recording
+PRODUCT_PACKAGES += \
+    com.google.android.apps.dialer.call_recording_audio.features.xml
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
