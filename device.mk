@@ -235,6 +235,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
+	
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/telephony_system-ext_privapp-permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions.xml
 
 # IR
 PRODUCT_PACKAGES += \
